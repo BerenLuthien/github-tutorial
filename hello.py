@@ -1,3 +1,10 @@
 
-I made some change for "branch2".
-this is a python file
+arr = [4,2,8,1,5]
+print('arr=',arr)
+for idx,n  in enumerate(arr):
+	if n >2:
+		arr[idx] = 999
+
+
+print(arr)
+
